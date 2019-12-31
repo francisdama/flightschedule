@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">FlightScheduleApp</string>
+    <string name="main_text">Please select an Origin and Destination Airport</string>
+    <string-array name="IATA_codes">
+        <item>Select_origin_airport_code</item>
+        <item>AKR</item>
+        <item>KAN</item>
+        <item>BCU</item>
+        <item>BNI</item>
+        <item>CBQ</item>
+        <item>ENU</item>
+        <item>IBA</item>
+        <item>ILR</item>
+        <item>JOS</item>
+        <item>KAD</item>
+        <item>MIU</item>
+        <item>MDI</item>
+        <item>MXJ</item>
+        <item>LOS</item>
+        <item>ABV</item>
+        <item>PHC</item>
+        <item>PHG</item>
+        <item>SKO</item>
+        <item>QVL</item>
+        <item>QRW</item>
+        <item>YOL</item>
+        <item>ZAR</item>
+        <item>FRA</item>
+        <item>JFK</item>
+    </string-array>
+</resources>

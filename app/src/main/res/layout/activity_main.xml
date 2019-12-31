@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/main_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_text"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        />
+    <LinearLayout
+        android:id="@+id/lin1"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/main_text">
+
+        <Spinner
+            android:id="@+id/select_origin"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center"
+            android:entries="@array/IATA_codes"
+            android:background="@drawable/edit_text_border"/>
+        <Spinner
+            android:id="@+id/select_destination"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:entries="@array/IATA_codes"
+            android:background="@drawable/edit_text_border"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/map_btn"
+        android:layout_below="@+id/lin1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Proceed" />
+
+</RelativeLayout>
